@@ -1,4 +1,4 @@
-# PHP: The Right Way
+# PHP الطريقة الصحيحة
 
 ## Overview
 
