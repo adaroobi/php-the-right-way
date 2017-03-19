@@ -6,7 +6,7 @@ anchor:  complex_problem
 
 ## مشكلة معقدة {#complex_problem_title}
 
-إذا كنت قرأت عن حقن التوابع سابقاً قد يكون لفت نتباهك مصطلح *"Inversion of Control"* انعكاس التحكم أو *"Dependency Inversion Principle"* مفهوم عكس تحكم التوابع.
+إذا كنت قرأت عن حقن التوابع سابقاً قد يكون لفت انتباهك مصطلح *"Inversion of Control"* انعكاس التحكم أو *"Dependency Inversion Principle"* مفهوم عكس تحكم التوابع.
 هذه المشاكل المعقدة هي ما يقوم حقن التوابع بحلها.
 
 ### انعكاس التحكم
