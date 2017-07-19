@@ -8,4 +8,4 @@ anchor: templating
 
 توفر النمذجة طريقة مناسبة لفصل التحكم المنطقي من العرض المنطقي.
 تحتوي النماذج على HTML لتطبيقك، وقد تستخدم صيغ أخرى مثل XML.
-عادة ما تسمى النماذج بالعرض (أو "views") فهي تمثل المكون الثاني من النموذج المعماري للبرمجة الشيئية (MVC) [model–view–controller](pages/Design-Patterns.html#model-view-controller).
+عادة ما تسمى النماذج بالعرض (أو "views") فهي تمثل المكون الثاني من النموذج المعماري للبرمجة الكائنية (MVC) [model–view–controller](pages/Design-Patterns.html#model-view-controller).
