@@ -6,7 +6,7 @@ anchor:  virtual_or_dedicated_servers
 
 ## السيرفرات المخصصة أو الإفتراضية {#virtual_or_dedicated_servers_title}
 
-**Virtual or Dedicated Servers** 
+**Virtual or Dedicated Servers**
 إذا كنت مرتاح بالعمل كمشرف نظام أو مهتم بتعلمه فالسيرفرات المخصصة والإفتراضية تتيح لك مطلق الحرية والتحكم في بيئة التطبيق النهائية.
 
 ### nginx و PHP-FPM
@@ -33,10 +33,14 @@ anchor:  virtual_or_dedicated_servers
 Nginx وتشغيل [worker MPM] أو [event MPM] مع الوحدة mod_fastcgi أو mod_fcgid.
 هذا الضبط سيكون ذا تأثير واضح وكبير على الذاكرة وسرعة ملحوظة ولكن هنالك جهد أكبر للتنصيب.
 
+إذا كنت تستخدم Apache 2.4 أو احدث فيمكنك استخدام [mod_proxy_fcgi] لكي تزيد من كفاءة الأداء وهو سهل التنصيب والضبط.
+
 * [قراءة المزيد عن Apache][apache]
 * [قراءة المزيد عن دوال المعالجة المتعددة Multi-Processing Modules][apache-MPM]
 * [قراءة المزيد عن mod_fastcgi][mod_fastcgi]
 * [قراءة المزيد عن mod_fcgid][mod_fcgid]
+* [قراءة المزيد عن mod_proxy_fcgi][mod_proxy_fcgi]
+* [قراءة المزيد عن ضبط Apache مع PHP-FPM باستخدام mod_proxy_fcgi][tutorial-mod_proxy_fcgi]
 
 
 [nginx]: http://nginx.org/
@@ -48,5 +52,7 @@ Nginx وتشغيل [worker MPM] أو [event MPM] مع الوحدة mod_fastcgi �
 [event MPM]: http://httpd.apache.org/docs/2.4/mod/event.html
 [apache]: http://httpd.apache.org/
 [apache-MPM]: http://httpd.apache.org/docs/2.4/mod/mpm_common.html
-[mod_fastcgi]: http://www.fastcgi.com/mod_fastcgi/docs/mod_fastcgi.html
+[mod_fastcgi]: https://blogs.oracle.com/opal/entry/php_fpm_fastcgi_process_manager
 [mod_fcgid]: http://httpd.apache.org/mod_fcgid/
+[mod_proxy_fcgi]: https://httpd.apache.org/docs/current/mod/mod_proxy_fcgi.html
+[tutorial-mod_proxy_fcgi]: https://serversforhackers.com/video/apache-and-php-fpm
